@@ -172,7 +172,7 @@ print("\n\n")
 // виводимо інформацію про температуру тільки у Цельсій
 // для кожного міста, що є у масиві weatherInCities
 print("---------- ЕКРАН 2 ----------")
-for index in 1 ..< weatherInCities.count {
+for index in 0 ..< weatherInCities.count {
     let _ = index
     let weatherInfo = weatherInCities[index]
     let city = weatherInfo.0
